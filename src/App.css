@@ -13,6 +13,33 @@
   }
 }
 
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.team-card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.team-card h2 {
+  margin-top: 0;
+}
+
+.team-card p {
+  margin-bottom: 5px;
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
